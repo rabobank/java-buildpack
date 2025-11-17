@@ -68,6 +68,7 @@ frameworks:
   - "JavaBuildpack::Framework::MetricWriter"
   - "JavaBuildpack::Framework::NewRelicAgent"
   - "JavaBuildpack::Framework::OpenTelemetryJavaagent"
+  - "JavaBuildpack::Framework::CfMetricsExporter"
   - "JavaBuildpack::Framework::PostgresqlJDBC"
   - "JavaBuildpack::Framework::RiverbedAppinternalsAgent"
   - "JavaBuildpack::Framework::SealightsAgent"
