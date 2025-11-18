@@ -1,0 +1,10 @@
+# Cloud Foundry Java Buildpack
+#
+# Configuration for the CF Metrics Exporter javaagent.
+# You can override values here using the environment variable:
+#   JBP_CONFIG_CF_METRICS_EXPORTER
+# Example:
+#   cf set-env my-app JBP_CONFIG_CF_METRICS_EXPORTER '{ version: 0.6.2, uri: "https://.../cf-metrics-exporter-0.6.2.jar" }'
+---
+version: 0.6.2
+uri: https://github.com/rabobank/cf-metrics-exporter/releases/download/0.6.2/cf-metrics-exporter-0.6.2.jar
