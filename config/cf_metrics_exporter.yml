@@ -6,5 +6,6 @@
 # Example:
 #   cf set-env my-app JBP_CONFIG_CF_METRICS_EXPORTER '{ version: 0.6.2, uri: "https://.../cf-metrics-exporter-0.6.2.jar" }'
 ---
-version: 0.6.2
-uri: https://github.com/rabobank/cf-metrics-exporter/releases/download/0.6.2/cf-metrics-exporter-0.6.2.jar
+cf_metrics_exporter:
+  version: +
+  repository_root: "https://raw.githubusercontent.com/rabobank/java-buildpack/main/cf-metrics-exporter/{platform}/{architecture}"
