@@ -67,8 +67,6 @@ module JavaBuildpack
         end
       end
 
-      protected
-
       # (see JavaBuildpack::Component::BaseComponent#detect)
       def detect
         supports? ? "cf-metrics-exporter=#{@configuration['version'] || DEFAULT_VERSION}" : nil
