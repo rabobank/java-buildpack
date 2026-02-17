@@ -64,7 +64,7 @@ frameworks:
 #  - "JavaBuildpack::Framework::JprofilerProfiler"
 #  - "JavaBuildpack::Framework::JrebelAgent"
 #  - "JavaBuildpack::Framework::LunaSecurityProvider"
-#  - "JavaBuildpack::Framework::MariaDbJDBC"
+  - "JavaBuildpack::Framework::MariaDbJDBC"
   - "JavaBuildpack::Framework::MetricWriter"
 #  - "JavaBuildpack::Framework::NewRelicAgent"
   - "JavaBuildpack::Framework::OpenTelemetryJavaagent"
